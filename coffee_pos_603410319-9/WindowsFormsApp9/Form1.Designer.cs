@@ -97,6 +97,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Payment = new System.Windows.Forms.TabPage();
+            this.ttb1 = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -106,11 +108,11 @@
             this.label28 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.ttb1 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.Payment.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -936,6 +938,24 @@
             this.Payment.Text = "Payment";
             this.Payment.UseVisualStyleBackColor = true;
             // 
+            // ttb1
+            // 
+            this.ttb1.Location = new System.Drawing.Point(10, 12);
+            this.ttb1.Multiline = true;
+            this.ttb1.Name = "ttb1";
+            this.ttb1.Size = new System.Drawing.Size(616, 356);
+            this.ttb1.TabIndex = 0;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label29);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(636, 382);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "About";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1025,22 +1045,15 @@
             this.button25.UseVisualStyleBackColor = false;
             this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
-            // tabPage3
+            // label29
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(636, 382);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "About";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // ttb1
-            // 
-            this.ttb1.Location = new System.Drawing.Point(10, 12);
-            this.ttb1.Multiline = true;
-            this.ttb1.Name = "ttb1";
-            this.ttb1.Size = new System.Drawing.Size(616, 356);
-            this.ttb1.TabIndex = 0;
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(37, 24);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(321, 39);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Author : Panat  Kum-in\r\n\r\nGitHub : https://github.com/phaicblack/coffee_pos_60341" +
+    "0319-9\r\n";
             // 
             // Form1
             // 
@@ -1064,6 +1077,8 @@
             this.tabPage1.PerformLayout();
             this.Payment.ResumeLayout(false);
             this.Payment.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1151,6 +1166,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.TextBox ttb1;
+        private System.Windows.Forms.Label label29;
     }
 }
 
