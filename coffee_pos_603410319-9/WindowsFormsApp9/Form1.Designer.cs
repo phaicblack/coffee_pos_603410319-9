@@ -99,6 +99,7 @@
             this.Payment = new System.Windows.Forms.TabPage();
             this.ttb1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label290 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -108,7 +109,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
-            this.label29 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.Payment.SuspendLayout();
@@ -948,13 +948,23 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.label29);
+            this.tabPage3.Controls.Add(this.label290);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(636, 382);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "About";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label290
+            // 
+            this.label290.AutoSize = true;
+            this.label290.Location = new System.Drawing.Point(37, 24);
+            this.label290.Name = "label290";
+            this.label290.Size = new System.Drawing.Size(321, 39);
+            this.label290.TabIndex = 0;
+            this.label290.Text = "Author : Panat  Kum-in\r\n\r\nGitHub : https://github.com/phaicblack/coffee_pos_60341" +
+    "0319-9\r\n";
             // 
             // label1
             // 
@@ -1044,16 +1054,6 @@
             this.button25.Text = "Clear";
             this.button25.UseVisualStyleBackColor = false;
             this.button25.Click += new System.EventHandler(this.button25_Click);
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(37, 24);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(321, 39);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "Author : Panat  Kum-in\r\n\r\nGitHub : https://github.com/phaicblack/coffee_pos_60341" +
-    "0319-9\r\n";
             // 
             // Form1
             // 
@@ -1166,7 +1166,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.TextBox ttb1;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label290;
     }
 }
 
